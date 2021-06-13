@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+</head>
+<body style=" background: linear-gradient(to right, #e8cbc0, #636fa4);">
+    <div class='navbar'>
+        <nav>
+            <ul>
+                <li><font color="white" face="Times new roman" size=5><b>Chat Room</b></font></li>
+                <div class="login-register">
+                    <li><a href="{{url_for('login')}}">Login</a></li>
+                    <li><a href="{{url_for('register')}}">Register</a></li>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <h1>Hello World!</h1>
+    <p>"An simple way to text."</p>
+    <p>"By A5-Team2."</p>
+
+    
+
+    
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .navbar {
+            height: 80px;
+            background: rgb(37, 36, 36);
+        }
+
+        .navbar > nav > ul {
+            display: flex;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 30px;
+            justify-content: space-between;
+        }
+
+        .navbar > nav > ul > li > a {
+            color: #ffffff;
+            text-decoration: none;
+
+        }
+
+        .login-register {
+            display: flex;
+        }
+
+
+        .login-register > li > a {
+            color: #ffffff;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .login-register > li > a:hover {
+            background-color: rgb(36, 76, 122);
+            padding: 10px;
+            color: #ffffff;
+            border-radius: 4px;
+            transition: .3s;
+        }
+
+       
+
+    </style>
+
+
+
+
+
+</body>
+</html>
